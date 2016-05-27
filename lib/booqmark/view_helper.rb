@@ -1,5 +1,5 @@
 module Booqmark
-  module ViewHelpers
+  module ViewHelper
     def booqmark_toolbar
       render "booqmark/toolbar"
     end

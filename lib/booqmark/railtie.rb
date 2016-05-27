@@ -1,9 +1,9 @@
-require 'booqmark/view_helpers'
+require 'booqmark/view_helper'
 
 module Booqmark
   class Railtie < Rails::Railtie
-    initializer "booqmark.view_helpers" do
-      ActionView::Base.send :include, ViewHelpers
+    initializer "booqmark.view_helper" do
+      ActionView::Base.send :include, ViewHelper
     end
   end
 end
