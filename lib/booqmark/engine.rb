@@ -1,4 +1,4 @@
 module Booqmark
-  class Engine < Rials::Engine
+  class Engine < Rails::Engine
   end
 end

@@ -68,7 +68,7 @@ $(document).ready(function(){
     else if(e.metaKey && e.keyCode == 83) {
       e.preventDefault();
       e.stopPropagation();
-      $(".edit_entry").submit();
+      $("#payload_form").submit();
     }
   });
 });
